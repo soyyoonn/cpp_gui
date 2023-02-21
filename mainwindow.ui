@@ -39,7 +39,7 @@
        <rect>
         <x>660</x>
         <y>60</y>
-        <width>81</width>
+        <width>101</width>
         <height>22</height>
        </rect>
       </property>
@@ -72,7 +72,7 @@
      <widget class="QLineEdit" name="content">
       <property name="geometry">
        <rect>
-        <x>761</x>
+        <x>770</x>
         <y>60</y>
         <width>113</width>
         <height>22</height>
@@ -88,7 +88,7 @@
      <widget class="QLineEdit" name="money">
       <property name="geometry">
        <rect>
-        <x>887</x>
+        <x>891</x>
         <y>60</y>
         <width>113</width>
         <height>22</height>
@@ -128,7 +128,7 @@
       <property name="geometry">
        <rect>
         <x>167</x>
-        <y>403</y>
+        <y>404</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -141,7 +141,7 @@
       <property name="geometry">
        <rect>
         <x>413</x>
-        <y>411</y>
+        <y>412</y>
         <width>48</width>
         <height>16</height>
        </rect>
@@ -153,8 +153,8 @@
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>414</x>
-        <y>460</y>
+        <x>412</x>
+        <y>500</y>
         <width>48</width>
         <height>16</height>
        </rect>
@@ -329,7 +329,7 @@
        <enum>QLineEdit::Password</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="login">
+     <widget class="QPushButton" name="btn_login">
       <property name="geometry">
        <rect>
         <x>460</x>
@@ -381,34 +381,53 @@
        <string>비밀번호</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="month_money">
+     <widget class="QLineEdit" name="in_budget">
       <property name="geometry">
        <rect>
-        <x>239</x>
-        <y>409</y>
+        <x>480</x>
+        <y>410</y>
         <width>113</width>
         <height>22</height>
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="budget">
+     <widget class="QLabel" name="month_money">
       <property name="geometry">
        <rect>
-        <x>489</x>
-        <y>409</y>
-        <width>113</width>
-        <height>22</height>
+        <x>260</x>
+        <y>411</y>
+        <width>71</width>
+        <height>16</height>
        </rect>
       </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
      </widget>
-     <widget class="QLineEdit" name="change">
+     <widget class="QLabel" name="change">
       <property name="geometry">
        <rect>
-        <x>489</x>
-        <y>459</y>
-        <width>113</width>
-        <height>22</height>
+        <x>480</x>
+        <y>500</y>
+        <width>111</width>
+        <height>16</height>
        </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="budget">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>440</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
       </property>
      </widget>
     </widget>

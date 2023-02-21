@@ -26,15 +26,19 @@ public:
 
 private slots:
 
-    void on_budget_returnPressed();
-
     void on_comboBox_currentTextChanged(const QString &arg1);
 
-    void on_content_returnPressed();
-
-    void on_money_returnPressed();
-
     void on_btn_add_clicked();
+
+    void on_in_budget_returnPressed();
+
+    void on_content_editingFinished();
+
+    void on_money_editingFinished();
+
+    void on_btn_login_clicked();
+
+    void on_calendarWidget_clicked(const QDate &date);
 
 private:
     Ui::MainWindow *ui;
