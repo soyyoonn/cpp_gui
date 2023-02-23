@@ -40,7 +40,11 @@ private slots:
 
     void on_calendarWidget_clicked(const QDate &date);
 
+    void on_btn_login_2_clicked();
+
+
 private:
     Ui::MainWindow *ui;
+    QString member_name;
 };
 #endif // MAINWINDOW_H

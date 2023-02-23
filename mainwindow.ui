@@ -128,7 +128,7 @@
       <property name="geometry">
        <rect>
         <x>167</x>
-        <y>404</y>
+        <y>401</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -141,7 +141,7 @@
       <property name="geometry">
        <rect>
         <x>413</x>
-        <y>412</y>
+        <y>410</y>
         <width>48</width>
         <height>16</height>
        </rect>
@@ -167,7 +167,7 @@
       <property name="geometry">
        <rect>
         <x>709</x>
-        <y>371</y>
+        <y>370</y>
         <width>48</width>
         <height>16</height>
        </rect>
@@ -176,50 +176,11 @@
        <string>주간지출</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>784</x>
-        <y>372</y>
-        <width>111</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>2월 1일 ~ 2월 4일</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_6">
-      <property name="geometry">
-       <rect>
-        <x>783</x>
-        <y>409</y>
-        <width>111</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>2월 5일 ~ 2월 11일</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>781</x>
-        <y>446</y>
-        <width>121</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>2월 12일 ~ 2월 18일</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_8">
       <property name="geometry">
        <rect>
-        <x>781</x>
-        <y>483</y>
+        <x>790</x>
+        <y>485</y>
         <width>121</width>
         <height>16</height>
        </rect>
@@ -231,8 +192,8 @@
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
-        <x>782</x>
-        <y>520</y>
+        <x>790</x>
+        <y>525</y>
         <width>121</width>
         <height>16</height>
        </rect>
@@ -241,69 +202,30 @@
        <string>2월 26일 ~ 2월 28일</string>
       </property>
      </widget>
-     <widget class="QLabel" name="week1">
-      <property name="geometry">
-       <rect>
-        <x>948</x>
-        <y>372</y>
-        <width>48</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="week2">
-      <property name="geometry">
-       <rect>
-        <x>947</x>
-        <y>408</y>
-        <width>48</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="week3">
-      <property name="geometry">
-       <rect>
-        <x>949</x>
-        <y>447</y>
-        <width>48</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="week4">
       <property name="geometry">
        <rect>
-        <x>950</x>
-        <y>483</y>
+        <x>939</x>
+        <y>485</y>
         <width>48</width>
         <height>16</height>
        </rect>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="week5">
       <property name="geometry">
        <rect>
-        <x>950</x>
-        <y>520</y>
+        <x>939</x>
+        <y>525</y>
         <width>48</width>
         <height>16</height>
        </rect>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="id">
@@ -327,19 +249,6 @@
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btn_login">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>10</y>
-        <width>75</width>
-        <height>24</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>로그인</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_15">
@@ -385,7 +294,7 @@
       <property name="geometry">
        <rect>
         <x>480</x>
-        <y>410</y>
+        <y>408</y>
         <width>113</width>
         <height>22</height>
        </rect>
@@ -394,14 +303,14 @@
      <widget class="QLabel" name="month_money">
       <property name="geometry">
        <rect>
-        <x>260</x>
-        <y>411</y>
-        <width>71</width>
+        <x>252</x>
+        <y>410</y>
+        <width>91</width>
         <height>16</height>
        </rect>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="change">
@@ -414,7 +323,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="budget">
@@ -427,7 +336,128 @@
        </rect>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="loginstack">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>10</y>
+        <width>120</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <widget class="QPushButton" name="btn_login">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>0</y>
+          <width>75</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>로그인</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QPushButton" name="btn_login_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>0</y>
+          <width>75</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>로그아웃</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>445</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2월 12일 ~ 2월 18일</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>405</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2월 5일  ~  2월 11일</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>370</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2월 1일  ~  2월 4일</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="week1">
+      <property name="geometry">
+       <rect>
+        <x>939</x>
+        <y>370</y>
+        <width>48</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="week2">
+      <property name="geometry">
+       <rect>
+        <x>939</x>
+        <y>405</y>
+        <width>48</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="week3">
+      <property name="geometry">
+       <rect>
+        <x>939</x>
+        <y>445</y>
+        <width>48</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
